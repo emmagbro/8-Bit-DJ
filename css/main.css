@@ -1,0 +1,71 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*Author's custom styles*/
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000;
+}
+
+.soundBoard {
+  height: 850px;
+  width: 1073.686px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -425px 0 0 -536.843px;
+}
+
+.board {
+  height: 850px;
+  width: 1073.686px;
+  image-rendering: pixelated;
+  position: absolute;
+}
+
+.instrName {
+  position: absolute;
+  font-size: 42.5px;
+  top: 68px;
+}
+
+.instrName li {
+  display: inline-block;
+  margin-left: 103.7px;
+}
+
+.instrName li:last-child {
+  margin-left: 179.35px;
+}
+
+.buttonContainer {
+  position: absolute;
+  z-index: 100;
+  top: 144.5px;
+  left: 72.25px;
+}
+
+.buttonRow {
+  overflow: hidden;
+  margin-top: 42.5px;
+}
+
+.buttonRow:first-child {
+  margin-top: 0;
+}
+
+.musicButton {
+  float: left;
+  padding-left: 55.25px;
+}
+
+.musicButton:first-child {
+  padding-left: 0;
+}
+
+.musicButton img {
+  height: 106.25px;
+  image-rendering: pixelated;
+}
